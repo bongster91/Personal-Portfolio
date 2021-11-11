@@ -1,5 +1,5 @@
-import textBasedAdventure from '../assets/Text based Adventure Giphy.gif';
-import capstone from '../assets/capstone-giphy.gif';
+import textBasedAdventure from '../Assets/Text based Adventure Giphy.gif';
+import capstone from '../Assets/capstone-giphy.gif';
 import styled from 'styled-components';
 
 const ProjectContainer = styled.section`

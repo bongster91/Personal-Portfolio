@@ -1,8 +1,8 @@
-import Opinions from "../components/Opinions";
-import EditorPicks from "../components/EditorPicks";
-import Horoscope from "../components/Horoscope";
-import RightSideMiscAPI from "../components/RightSideMiscAPI";
-import CreditForSources from "../components/CreditForSources";
+import Opinions from "../Components/Opinions";
+import EditorPicks from "../Components/EditorPicks";
+import Horoscope from "../Components/Horoscope";
+import RightSideMiscAPI from "../Components/RightSideMiscAPI";
+import CreditForSources from "../Components/CreditForSources";
 import styled from "styled-components";
 
 const RightSection = styled.section`

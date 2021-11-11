@@ -8,7 +8,6 @@ import Experience from "./Pages/Experience";
 import ContactInfo from "./Pages/ContactInfo";
 import RightColumn from "./Pages/RightColumn";
 import styled from "styled-components";
-import './App.css';
 
 const AppContainer = styled.div`
   font-family: serif;

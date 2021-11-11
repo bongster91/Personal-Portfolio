@@ -1,14 +1,14 @@
-import htmlIcon from '../assets/html.png';
-import cssIcon from '../assets/css.png';
-import jsIcon from '../assets/js.png';
-import gitHubIcon from '../assets/github.png';
-import msOfficeIcon from '../assets/Microsoft Office.png';
-import objectIcon from '../assets/obj.png';
-import psqlIcon from '../assets/PostgreSQL.png';
-import reactReduxIcon from '../assets/React&Redux Logo.jpeg';
-import sqlIcon from '../assets/sql.png';
-import vsCodeIcon from '../assets/Visual Studio Code.webp';
-import websiteIcon from '../assets/website.png';
+import htmlIcon from '../Assets/html.png';
+import cssIcon from '../Assets/css.png';
+import jsIcon from '../Assets/js.png';
+import gitHubIcon from '../Assets/github.png';
+import msOfficeIcon from '../Assets/Microsoft Office.png';
+import objectIcon from '../Assets/obj.png';
+import psqlIcon from '../Assets/PostgreSQL.png';
+import reactReduxIcon from '../Assets/React&Redux Logo.jpeg';
+import sqlIcon from '../Assets/sql.png';
+import vsCodeIcon from '../Assets/Visual Studio Code.webp';
+import websiteIcon from '../Assets/website.png';
 import styled from 'styled-components';
 
 const SkillsContainer = styled.section`

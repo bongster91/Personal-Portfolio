@@ -1,6 +1,6 @@
-import headshot from '../assets/Pursuit 7.0 - Headshot.jpg';
-import BioRecipe from '../components/BioRecipe';
-import BioBackground from '../components/BioBackground';
+import headshot from '../Assets/Pursuit 7.0 - Headshot.jpg';
+import BioRecipe from '../Components/BioRecipe';
+import BioBackground from '../Components/BioBackground';
 import styled from 'styled-components';
 
 const BioSection = styled.section`
