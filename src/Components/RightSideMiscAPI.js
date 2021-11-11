@@ -21,7 +21,7 @@ function RightSideMiscAPI() {
 
     return (
         <div className="right-column-api">
-            <button className="dad-joke">Click here for a dad joke!</button>
+            {/* <button className="dad-joke">Click here for a dad joke!</button> */}
             <p>{joke}</p>
         </div>
     );
