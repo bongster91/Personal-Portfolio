@@ -33,18 +33,18 @@ function Projects() {
     return (
         <ProjectContainer id="projects">
             <h2>Projects</h2>
-            <span>{console.log(ProjectContainer)}
+            <span>
                 <a href="https://github.com/kathypurry/capstonegang">Tech Type</a>
                 <p>Typing improvement game for developers.</p>
                 <img className="project-giphy" src={capstone} alt="project-giphy" />
             </span>
 
-            <span>
+            <span><br/>
                 <a href="https://github.com/bongster91/coffee-project">JavaScript Coffee</a>
                 <p>Coffee from developers, for developers.</p>
             </span>
 
-            <span>
+            <span><br/>
                 <a href="https://github.com/bongster91/FSW-Text-Based-Adventure">Text Based Adventure</a>
                 <p>Text based, turn based, multiple ending story on terminal.</p>
                 <img className="project-giphy"  src={textBasedAdventure} alt="project-giphy" />

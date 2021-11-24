@@ -19,9 +19,11 @@ function Opinions() {
 
             <p>You know what they say...when life gives you lemons, make limes.</p>
 
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum sequi dolore, alias deleniti animi ipsum. Nulla nemo quis minima inventore quaerat sit voluptatem iure reiciendis doloribus consequuntur, possimus maiores cumque.</p>
+            <p>I would love to frolic in the jungle with jaguars...as long as I have excellect wifi.</p>
 
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum sequi dolore, alias deleniti animi ipsum. Nulla nemo quis minima inventore quaerat sit voluptatem iure reiciendis doloribus consequuntur, possimus maiores cumque.</p>
+            <p>Some of my favorite foods are: pizza, hotpot, steak, bibimbap, sushi, fried chicken</p>
+
+            <p>🚀 To the moooonnn!! 🚀</p>
         </Opinion>
     );
 };

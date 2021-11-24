@@ -19,7 +19,11 @@ function Horoscope() {
 
             <p>Legends foretell of a shining circle in the skies, one during the day and one during the night...</p>
 
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum sequi dolore, alias deleniti animi ipsum. Nulla nemo quis minima inventore quaerat sit voluptatem iure reiciendis doloribus consequuntur, possimus maiores cumque.</p>
+            <span>☀️ ♐</span> <br />
+            <span>🌙 🦁</span> <br />
+            <span>⬆️ 🦁</span> <br />
+
+            <p>As CoStar says: 'Poetry is in the street'</p>
         </HoroscopeContainer>
     );
 };

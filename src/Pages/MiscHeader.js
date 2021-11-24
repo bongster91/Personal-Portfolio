@@ -39,7 +39,7 @@ const Ul = styled.ul`
 
 function MiscHeader() {
     const date = new Date();
-    let currentDate = `${date.getMonth()}/${date.getDay()}/${date.getFullYear()}`
+    let currentDate = `${date.toLocaleDateString()}`
 
     return (
         <MiscContainer>
