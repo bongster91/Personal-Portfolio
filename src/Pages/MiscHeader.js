@@ -7,8 +7,10 @@ const MiscContainer = styled.header`
     font-size: 18px;
 
     @media screen and (max-width: 700px) {
-        grid-column: 1/10;
+        grid-column: 1/13;
         justify-items: stretch;
+        border-bottom: none;
+        font-size: 15px;
     }
 `
 
@@ -32,9 +34,7 @@ const Ul = styled.ul`
             padding: 8px;
             border-top: 1px solid #DADCE0;
         }
-    }
-
-    
+    }  
 `
 
 function MiscHeader() {

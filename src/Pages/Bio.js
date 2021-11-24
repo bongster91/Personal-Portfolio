@@ -17,6 +17,10 @@ const BioSection = styled.section`
         grid-column: 1;
         grid-row: 4/5;
     }
+
+    @media screen and (max-width: 700px) {
+        grid-column: 1/12;
+    }
 `
 
 function Bio() {

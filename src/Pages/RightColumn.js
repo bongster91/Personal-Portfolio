@@ -7,13 +7,13 @@ import styled from "styled-components";
 
 const RightSection = styled.section`
     grid-column: 10/13;
-    grid-row: 4/11;
+    grid-row: 4/12;
     justify-content: center;
     border-left: 2px solid black;
     padding: 20px;
 
     @media screen and (max-width: 700px) {
-        grid-row: 7/9;
+        grid-row: 6;
         grid-column: 1/13;
         border-left: none;
     }

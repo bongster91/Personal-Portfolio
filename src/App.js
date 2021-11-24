@@ -19,19 +19,19 @@ const AppContainer = styled.div`
 
   @media screen and (max-width: 700px) {
     display:grid;
-    grid-template-columns: repeat(9, 1fr);
-    grid-template-rows: repeat(3, .25fr) repeat(10, 3fr) .25fr;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 50px 125px 50px repeat(2, .5fr) .25fr;
   }
 `
 
 const MainSection = styled.main`
-  grid-row: 4/11;
+  grid-row: 4/12;
   grid-column: 1/10;
   padding: 20px;
 
   @media screen and (max-width: 700px) {
-    grid-column: 1/11;
-    grid-row: 4/11;
+    grid-column: 1/13;
+    grid-row: 4/6;
   }
 `
 

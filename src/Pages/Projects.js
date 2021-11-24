@@ -27,6 +27,11 @@ const ProjectContainer = styled.section`
     a:hover {
         color: darkgoldenrod;
     }
+
+    @media screen and (max-width: 700px) {
+        grid-row: 6;
+        grid-column: 1/13;
+    }
 `
 
 function Projects() {

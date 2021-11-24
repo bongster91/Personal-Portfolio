@@ -2,8 +2,9 @@ import styled from "styled-components";
 
 const ContactContainer = styled.section`
     border-top: 3px solid black;
-    grid-row: 11/12;
+    grid-row: 12;
     grid-column: 1/13;
+    padding-bottom: 10px;
 
     h2 {
         font-style: italic;
@@ -22,8 +23,9 @@ const ContactContainer = styled.section`
     }
 
     @media screen and (max-width: 700px) {
-        grid-row: 9;
+        grid-row: 7;
         grid-column: 1/13;
+    
     }
 `
 

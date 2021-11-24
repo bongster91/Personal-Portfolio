@@ -8,6 +8,11 @@ const Credit = styled.section`
         font-style: italic;
         border-bottom: 1px solid black;
     }
+
+    @media screen and (max-width: 700px) {
+       grid-row: 7;
+       grid-column: 1/12;
+    }
 `
 
 function CreditForSources() {

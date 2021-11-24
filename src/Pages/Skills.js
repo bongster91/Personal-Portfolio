@@ -24,6 +24,15 @@ const SkillsContainer = styled.section`
         width: 100px;
         height: 100px;
     }
+
+    @media screen and (max-width: 700px) {[
+        grid-row: 7;
+        grid-column: 1/12;
+    
+        border-bottom: none;
+
+        
+    ]}
 `
 
 function Skills() {
