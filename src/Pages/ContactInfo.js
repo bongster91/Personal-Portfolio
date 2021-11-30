@@ -4,7 +4,7 @@ const ContactContainer = styled.section`
     border-top: 3px solid black;
     grid-row: 12;
     grid-column: 1/13;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
 
     h2 {
         font-style: italic;

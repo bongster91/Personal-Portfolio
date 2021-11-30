@@ -36,6 +36,7 @@ const ExpContainer = styled.section`
     @media screen and (max-width: 700px) {
         grid-row: 5/6;
         grid-column: 1/12;
+        border-bottom: 1px solid black;
     }
 `
 
