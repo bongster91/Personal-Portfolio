@@ -1,5 +1,6 @@
 import textBasedAdventure from '../Assets/Text based Adventure Giphy.gif';
 import capstone from '../Assets/capstone-giphy.gif';
+import jsCoffee from '../Assets/JSCoffee-giphy.gif';
 import styled from 'styled-components';
 
 const ProjectContainer = styled.section`
@@ -16,6 +17,7 @@ const ProjectContainer = styled.section`
         height: 400px;
         width: 800px;
         padding: 5px;
+        border-bottom: 1px solid #DADCE0;
     }
 
     a {
@@ -40,13 +42,14 @@ function Projects() {
             <h2>Projects</h2>
             <span>
                 <a href="https://github.com/kathypurry/capstonegang">Tech Type</a>
-                <p>Typing improvement game for developers.</p>
+                <p>Typing game aimed at helping developers improve their syntactic fluency.</p>
                 <img className="project-giphy" src={capstone} alt="project-giphy" />
             </span>
 
             <span><br/>
                 <a href="https://github.com/bongster91/coffee-project">JavaScript Coffee</a>
-                <p>Coffee from developers, for developers.</p>
+                <p>PERN stack e-commerce coffee site by developers for developers.</p>
+                <img className="project-giphy" src={jsCoffee} alt="project-giphy" />
             </span>
 
             <span><br/>
