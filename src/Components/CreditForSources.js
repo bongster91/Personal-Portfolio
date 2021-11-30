@@ -31,7 +31,9 @@ function CreditForSources() {
                 <a href="https://www.aprimo.com/marketplace/microsoft-office/">MS Office</a>
                 <a href="https://www.pngfind.com/download/immiibh_react-js-transparent-logo-hd-png-download/">JS</a>
 
-                <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+                <div>Icons made by <a href="https://www.flaticon.com/authors/juicy-fish" title="juicy_fish">juicy_fish</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+
+                <div>Icons made by <a href="https://www.flaticon.com/authors/phatplus" title="phatplus">phatplus</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
             </div>
         </Credit>
     );
