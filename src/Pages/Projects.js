@@ -41,6 +41,12 @@ function Projects() {
         <ProjectContainer id="projects">
             <h2>Projects</h2>
             <span>
+                <p>What I'm working on right now:    
+                    <a href='https://github.com/bongster91/Mr-MICO'>Mr MICO</a>
+                </p>
+                <br />
+            </span>
+            <span>
                 <a href="https://github.com/kathypurry/capstonegang">Tech Type</a>
                 <p>Typing game aimed at helping developers improve their syntactic fluency.</p>
                 <img className="project-giphy" src={capstone} alt="project-giphy" />
