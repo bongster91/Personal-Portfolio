@@ -5,31 +5,38 @@ const ExpContainer = styled.section`
     grid-column: 1/10;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(6, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     gap: 10px;
+    border-bottom: 1px solid #DADCE0;
 
     h2 {
         font-style: italic;
         border-bottom: 1px solid black;
     }
 
+    .most-recent {
+        grid-row: 1/2;
+        grid-column: 1/7;
+        padding: 5px;
+        border-bottom: 1px solid #DADCE0;
+    }
+
     .pursuit {
-        grid-row: 1/7;
+        grid-row: 2/3;
         grid-column: 1/3;
         border-right: 1px solid #DADCE0;
-        padding 5px;
     }
 
     .torch {
-        grid-row: 1/7;
+        grid-row: 2/3;
         grid-column: 3/5;
         border-right: 1px solid #DADCE0;
         padding: 5px;
     }
 
     .partners {
-        grid-row: 1/7;
-        grid-column: 5/8;
+        grid-row: 2/3;
+        grid-column: 5/7;
         padding: 5px;
     }
 
@@ -43,12 +50,25 @@ const ExpContainer = styled.section`
 function Experience() {
     return (
         <ExpContainer id="experience">
-            <section className="pursuit">
+            <section className="most-recent">
                 <h2>Experience</h2>
+                <h4>Blackstone</h4>
+
+                <p>2022 - current</p>
+                <span>
+                    I am part of Blackstone Technology & Innovations (BXTI), the technology team at the core of each of Blackstone's businesses and new growth initiatives. Our team works to build the next generation of systems that manage risk, create efficiency, and improve transparency within the firm and across our broad community of investors and portfolio companies.
+
+                    At BXTI, I have had the opportunity to work on projects that are changing the Alternative Asset Management industry. I work with other engineers and business analysts to design, build, deploy, and support Blackstone Innovations' suite of applications. Our custom-built applications are mostly developed in Python or C# on the .NET platform with JavaScript/React/Node.js and hosted within AWS. I have had the opportunity to work with cloud native container-based and serverless architectures and build robust data pipelines connecting to Snowflake for data analysis and visualization.
+                </span>
+            </section>
+
+            <section className="pursuit">
                 <h4>Pursuit</h4>
 
                 <p>2020 - 2021</p>
-                <span>Fellow at Pursuit, an intensive 12-month, Google-funded, project based software engineering fellowship. Curriculum provides hands-on experience with JavaScript, HTML, CSS, Node, Express, React/Redux, PostgresSQL, APIs, GitHub, Data Structures, Algorithms, sprints, Agile, code reveiws and pair programming.</span>
+                <span>
+                    Fellow at Pursuit, an intensive 12-month, Google-funded, project based software engineering fellowship. Curriculum provides hands-on experience with JavaScript, HTML, CSS, Node, Express, React/Redux, PostgresSQL, APIs, GitHub, Data Structures, Algorithms, sprints, Agile, code reveiws and pair programming.
+                </span>
             </section>
 
             <section className="torch">
@@ -64,7 +84,8 @@ function Experience() {
                 <h4>Partners Coffee Roasters, Doughnut Plant</h4>
                 
                 <p>2016 - 2018</p>
-                <span>Honestly, I applied to Partners Coffee Roasters and Doughnut Plant because I'm a coffee-addict and I love doughnuts. BUT, this was my introduction into learning, tasting and breathing specialty coffee and I can never go back. Partners(previously called Toby's Estate) smacked me silly with their blueberry-bomb-pour-overs and chocolately-velvety-espresso...and now I'm a spoiled coffee convert.</span>
+                <span>
+                    Honestly, I applied to Partners Coffee Roasters and Doughnut Plant because I'm a coffee-addict and I love doughnuts. BUT, this was my introduction into learning, tasting and breathing specialty coffee and I can never go back. Partners(previously called Toby's Estate) smacked me silly with their blueberry-bomb-pour-overs and chocolately-velvety-espresso...and now I'm a spoiled coffee convert.</span>
             </section>
         </ExpContainer>
     );

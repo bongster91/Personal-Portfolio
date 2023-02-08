@@ -44,9 +44,9 @@ function App() {
 
         <MainSection>
           <Bio />
+          <Experience />
           <Projects />
           <Skills />
-          <Experience />
         </MainSection>
 
         <ContactInfo />
