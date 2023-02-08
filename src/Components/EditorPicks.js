@@ -23,7 +23,11 @@ function EditorPicks() {
 
             <p>Some things I have an interest in and will eventually add to my skillset are:</p>
             <ul>
+                <li>TypeScript</li>
                 <li>Python</li>
+                <li>Kubernetes</li>
+                <li>AWS</li>
+                <li>Docker</li>
                 <li>C++</li>
                 <li>Sculpting</li>
                 <li>Carpentry</li>

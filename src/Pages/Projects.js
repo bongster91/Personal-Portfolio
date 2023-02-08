@@ -42,7 +42,7 @@ function Projects() {
             <h2>Projects</h2>
             <span>
                 <p>What I'm working on right now:    
-                    <a href='https://github.com/bongster91/Mr-MICO'>Mr MICO</a>
+                    <a href='https://github.com/bongster91/Mr-MICO'> Mr MICO</a>
                 </p>
                 <br />
             </span>
