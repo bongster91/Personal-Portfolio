@@ -51,7 +51,7 @@ const SkillsContainer = styled.section`
 function Skills() {
     return (
         <SkillsContainer id="skills">
-            <h2>Skills/Knowledge</h2>
+            <h2>Skills</h2>
 
             <img className="skills-icon" src={htmlIcon} alt="html icon" />
             <img className="skills-icon" src={cssIcon} alt="css icon" />

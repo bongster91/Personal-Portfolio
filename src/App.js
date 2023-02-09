@@ -12,12 +12,23 @@ import { createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
   body {
-    font-family: 'Catamaran', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+  }
+
+  h1, h2 {
+    font-weight: bold;
+    font-style: italic;
+  }
+
+  a:hover {
+    color: darkgoldenrod;
   }
 `
 
 const AppContainer = styled.div`
   background-color: white;
+  max-width: 1300px;
+  margin: auto;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(3, 50px) repeat(7, 3fr) 1fr;

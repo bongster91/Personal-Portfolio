@@ -1,12 +1,14 @@
 import styled from 'styled-components';
 
 const Nav = styled.nav`
+    max-width: 1300px;
     background-color: white;
     border-bottom: 2px solid black;
     grid-column: 1/13;
     grid-row: 1;
     align-items: center;
     position: fixed;
+    margin: auto;
     left: 0;
     top: 0;
     right: 0;
