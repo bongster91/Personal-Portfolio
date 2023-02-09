@@ -8,9 +8,15 @@ import Experience from "./Pages/Experience";
 import ContactInfo from "./Pages/ContactInfo";
 import RightColumn from "./Pages/RightColumn";
 import styled from "styled-components";
+import { createGlobalStyle } from "styled-components";
+
+const GlobalStyle = createGlobalStyle`
+  body {
+    font-family: 'Catamaran', sans-serif;
+  }
+`
 
 const AppContainer = styled.div`
-  font-family: serif;
   background-color: white;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
@@ -38,6 +44,7 @@ const MainSection = styled.main`
 function App() {
   return (
     <AppContainer>
+      <GlobalStyle />
         <Navbar />
         <MiscHeader />
         <WelcomeHeader />

@@ -16,7 +16,6 @@ const BioSection = styled.section`
         padding: 10px;
         grid-column: 1;
         grid-row: 4/5;
-    }
 
     @media screen and (max-width: 700px) {
         grid-column: 1/12;

@@ -7,7 +7,7 @@ const ExpContainer = styled.section`
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: repeat(2, 1fr);
     gap: 10px;
-    border-bottom: 1px solid #DADCE0;
+    border-bottom: 2px solid black;
 
     h2 {
         font-style: italic;
@@ -25,6 +25,7 @@ const ExpContainer = styled.section`
         grid-row: 2/3;
         grid-column: 1/3;
         border-right: 1px solid #DADCE0;
+        padding: 5px;
     }
 
     .torch {

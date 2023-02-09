@@ -5,9 +5,7 @@ import gitHubIcon from '../Assets/github.png';
 import msOfficeIcon from '../Assets/Microsoft Office.png';
 import objectIcon from '../Assets/obj.png';
 import psqlIcon from '../Assets/PostgreSQL.png';
-import reactReduxIcon from '../Assets/React&Redux Logo.jpeg';
 import sqlIcon from '../Assets/sql.png';
-import vsCodeIcon from '../Assets/Visual Studio Code.webp';
 import websiteIcon from '../Assets/website.png';
 import apiIcon from '../Assets/api.png';
 import bootstrapIcon from '../Assets/bootstrap.png';
@@ -17,6 +15,12 @@ import postmanIcon from '../Assets/postman-icon.png';
 import debuggingIcon from '../Assets/debugging.png';
 import nodejsIcon from '../Assets/nodejs.png';
 import dataIcon from '../Assets/data-list.png';
+import dockerIcon from '../Assets/docker.png';
+import pythonIcon from '../Assets/python.png';
+import typescriptIcon from '../Assets/typescript.png';
+import adobexdIcon from '../Assets/xd.png';
+import reactIcon from '../Assets/react.png';
+import vscodeIcon from '../Assets/visual-studio.png';
 import styled from 'styled-components';
 
 const SkillsContainer = styled.section`
@@ -31,6 +35,7 @@ const SkillsContainer = styled.section`
     img {
         width: 100px;
         height: 100px;
+        padding: 5px;
     }
 
     @media screen and (max-width: 700px) {[
@@ -55,9 +60,7 @@ function Skills() {
             <img className="skills-icon" src={msOfficeIcon} alt="ms office icon" />
             <img className="skills-icon" src={objectIcon} alt="object icon" />
             <img className="skills-icon" src={psqlIcon} alt="postgres icon" />
-            <img className="skills-icon" src={reactReduxIcon} alt="react redux icon" />
             <img className="skills-icon" src={sqlIcon} alt="sql icon" />
-            <img className="skills-icon" src={vsCodeIcon} alt="vs code icon" />
             <img className="skills-icon" src={websiteIcon} alt="website icon" />
             <img className="skills-icon" src={apiIcon} alt="api icon" />
             <img className="skills-icon" src={bootstrapIcon} alt="bootstrap icon" />
@@ -67,6 +70,13 @@ function Skills() {
             <img className="skills-icon" src={debuggingIcon} alt="debugging icon" />
             <img className="skills-icon" src={nodejsIcon} alt="nodejs icon" />
             <img className="skills-icon" src={dataIcon} alt="data structure icon" />
+            <img className="skills-icon" src={dockerIcon} alt="docker icon" />
+            <img className="skills-icon" src={pythonIcon} alt="python icon" />
+            <img className="skills-icon" src={adobexdIcon} alt="adobe xd icon" />
+            <img className="skills-icon" src={typescriptIcon} alt="typescript icon" />
+            <img className='skills-icon' src={reactIcon} alt='react icon' />
+            <img className='skills-icon' src={vscodeIcon} alt='vs code icon' />
+            
         </SkillsContainer>
     );
 };

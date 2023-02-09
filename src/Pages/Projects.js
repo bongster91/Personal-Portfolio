@@ -12,6 +12,12 @@ const ProjectContainer = styled.section`
         border-bottom: 1px solid black;
     }
 
+    .project-container {
+        max-width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
     .project-giphy {
         max-width: 100%;
         height: 400px;
@@ -40,25 +46,27 @@ function Projects() {
     return (
         <ProjectContainer id="projects">
             <h2>Projects</h2>
-            <span>
+
+            <span className='project-container'>
                 <p>What I'm working on right now:    
                     <a href='https://github.com/bongster91/Mr-MICO'> Mr MICO</a>
                 </p>
                 <br />
             </span>
-            <span>
+
+            <span className='project-container'>
                 <a href="https://github.com/kathypurry/capstonegang">Tech Type</a>
                 <p>Typing game aimed at helping developers improve their syntactic fluency.</p>
                 <img className="project-giphy" src={capstone} alt="project-giphy" />
             </span>
 
-            <span><br/>
+            <span className='project-container'><br/>
                 <a href="https://github.com/bongster91/coffee-project">JavaScript Coffee</a>
                 <p>PERN stack e-commerce coffee site by developers for developers.</p>
                 <img className="project-giphy" src={jsCoffee} alt="project-giphy" />
             </span>
 
-            <span><br/>
+            <span className='project-container'><br/>
                 <a href="https://github.com/bongster91/FSW-Text-Based-Adventure">Text Based Adventure</a>
                 <p>Text based, turn based, multiple ending story on terminal.</p>
                 <img className="project-giphy"  src={textBasedAdventure} alt="project-giphy" />
