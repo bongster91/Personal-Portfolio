@@ -3,6 +3,7 @@ import EditorPicks from "../Components/EditorPicks";
 import Horoscope from "../Components/Horoscope";
 import RightSideMiscAPI from "../Components/RightSideMiscAPI";
 import CreditForSources from "../Components/CreditForSources";
+import Jokes from "../Components/Jokes";
 import styled from "styled-components";
 
 const RightSection = styled.section`
@@ -23,6 +24,7 @@ function RightColumn() {
     return (
         <RightSection>
             <EditorPicks />
+            <Jokes />
             <Opinions />
             <Horoscope />
             <RightSideMiscAPI />
