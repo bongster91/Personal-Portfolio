@@ -9,6 +9,10 @@ const Credit = styled.section`
         border-bottom: 1px solid black;
     }
 
+    a {
+        font-size: 12px;
+    }
+
     @media screen and (max-width: 700px) {
        grid-row: 7;
        grid-column: 1/12;
@@ -48,6 +52,10 @@ function CreditForSources() {
                 <a href="https://www.flaticon.com/free-icons/react" title="react icons">React icons created by Freepik - Flaticon</a>
                 
                 <a href="https://www.flaticon.com/free-icons/microsoft" title="microsoft icons">Microsoft icons created by Freepik - Flaticon</a>
+
+                <a href="https://www.freepik.com/free-photo/juicy-steak-medium-rare-beef-with-spices-grilled-vegetables_7536810.htm#page=2&query=food&position=2&from_view=keyword&track=sph">Image by timolina</a> on Freepik
+
+                <a href="https://www.freepik.com/free-photo/coffee-machine-filling-cup_1039893.htm#page=2&query=coffee&position=6&from_view=search&track=sph">Image by chevanon</a> on Freepik
             </div>
         </Credit>
     );

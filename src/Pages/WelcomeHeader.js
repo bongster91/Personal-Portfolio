@@ -16,7 +16,7 @@ const WelcomeHead = styled.header`
 function WelcomeHeader() {
     return (
         <WelcomeHead>
-            <h1>The Bong Times</h1>
+            <h1>Breaking News! Not Wordle just released!</h1>
         </WelcomeHead>
     );
 };
