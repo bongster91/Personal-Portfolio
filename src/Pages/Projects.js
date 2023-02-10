@@ -7,11 +7,6 @@ const ProjectContainer = styled.section`
     border-bottom: 2px solid black;
     grid-row: 6/9;
 
-    h2 {
-        font-style: italic;
-        border-bottom: 1px solid black;
-    }
-
     .project-container {
         max-width: 100%;
         justify-content: center;
@@ -26,16 +21,6 @@ const ProjectContainer = styled.section`
         border-bottom: 1px solid #DADCE0;
     }
 
-    a {
-        color: #0000FF;
-        font-size: 18px;
-        font-weight: bold;
-    }
-
-    a:hover {
-        color: darkgoldenrod;
-    }
-
     @media screen and (max-width: 700px) {
         grid-row: 6;
         grid-column: 1/13;
@@ -48,8 +33,8 @@ function Projects() {
             <h2>Projects</h2>
 
             <span className='project-container'>
-                <p>What I'm working on right now:    
-                    <a href='https://github.com/bongster91/Mr-MICO'> Mr MICO</a>
+                <p>Most recent adventure:    
+                    <a href='https://github.com/bongster91/Mr-MICO'>Mr MICO</a>
                 </p>
                 <br />
             </span>

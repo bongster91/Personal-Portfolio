@@ -25,7 +25,7 @@ import styled from 'styled-components';
 
 const SkillsContainer = styled.section`
     border-bottom: 2px solid black;
-    grid-row: 9/10;
+    grid-row: 10/11;
 
     h2 {
         font-style: italic;

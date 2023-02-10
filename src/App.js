@@ -3,26 +3,39 @@ import MiscHeader from "./Pages/MiscHeader";
 import WelcomeHeader from "./Pages/WelcomeHeader";
 import Bio from "./Pages/Bio";
 import Projects from "./Pages/Projects";
+import Games from './Pages/Games';
 import Skills from "./Pages/Skills";
 import Experience from "./Pages/Experience";
 import ContactInfo from "./Pages/ContactInfo";
 import RightColumn from "./Pages/RightColumn";
+
 import styled from "styled-components";
 import { createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
-  body {
-    font-family: 'Source Code Pro', monospace;
-  }
+    body {
+        font-family: 'Source Code Pro', monospace;
+    }
 
-  h1, h2 {
-    font-weight: bold;
-    font-style: italic;
-  }
+    h1, h2 {
+        font-weight: bold;
+        font-style: italic;
+    }
 
-  a:hover {
-    color: darkgoldenrod;
-  }
+    h2 {
+        font-style: italic;
+        border-bottom: 1px solid black;
+    }
+
+    a {
+        color: #0000FF;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    
+    a:hover {
+        color: darkgoldenrod;
+    }
 `
 
 const AppContainer = styled.div`
@@ -64,6 +77,7 @@ function App() {
           <Bio />
           <Experience />
           <Projects />
+          <Games />
           <Skills />
         </MainSection>
 
