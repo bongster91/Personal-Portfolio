@@ -32,7 +32,7 @@ function Jokes() {
 
     return (
         <JokesContainer>
-            <h3>Jokes for Dayss</h3>
+            <h3>Jokes Corner</h3>
             <button onClick={getNewJoke}>Another Joke?</button>
             <p>{joke.setup}</p>
             <p>{joke.punchline}</p>

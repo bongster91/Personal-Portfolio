@@ -33,10 +33,10 @@ function Games() {
             <h2>Games</h2>
 
             <span className='game-container'>
-                <a href='https://sunny-salamander-de5cb6.netlify.app/'>Not Wordle</a>
+                <a href='https://sunny-salamander-de5cb6.netlify.app/' target='_blank' rel='noreferrer'>Not Wordle</a>
                 <p>Definitely not unlimited Wordle</p>
                 
-                <a href='https://github.com/bongster91/not-wordle'>
+                <a href='https://github.com/bongster91/not-wordle' target='_blank' rel='noreferrer'>
                     <img className="game-pic"  src={notWordle} alt="not wordle screenshot" />
                 </a>
                 <br />

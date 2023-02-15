@@ -34,25 +34,25 @@ function Projects() {
 
             <span className='project-container'>
                 <p>Most recent adventure:    
-                    <a href='https://github.com/bongster91/Mr-MICO'>Mr MICO</a>
+                    <a href='https://github.com/bongster91/Mr-MICO' target='_blank' rel='noreferrer'>Mr MICO</a>
                 </p>
                 <br />
             </span>
 
             <span className='project-container'>
-                <a href="https://github.com/kathypurry/capstonegang">Tech Type</a>
+                <a href="https://github.com/kathypurry/capstonegang" target='_blank' rel='noreferrer'>Tech Type</a>
                 <p>Typing game aimed at helping developers improve their syntactic fluency.</p>
                 <img className="project-giphy" src={capstone} alt="project-giphy" />
             </span>
 
             <span className='project-container'><br/>
-                <a href="https://github.com/bongster91/coffee-project">JavaScript Coffee</a>
+                <a href="https://github.com/bongster91/coffee-project" target='_blank' rel='noreferrer'>JavaScript Coffee</a>
                 <p>PERN stack e-commerce coffee site by developers for developers.</p>
                 <img className="project-giphy" src={jsCoffee} alt="project-giphy" />
             </span>
 
             <span className='project-container'><br/>
-                <a href="https://github.com/bongster91/FSW-Text-Based-Adventure">Text Based Adventure</a>
+                <a href="https://github.com/bongster91/FSW-Text-Based-Adventure" target='_blank' rel='noreferrer'>Text Based Adventure</a>
                 <p>Text based, turn based, multiple ending story on terminal.</p>
                 <img className="project-giphy"  src={textBasedAdventure} alt="project-giphy" />
             </span>

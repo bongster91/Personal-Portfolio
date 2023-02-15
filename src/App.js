@@ -14,7 +14,9 @@ import { createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
     body {
-        font-family: 'Source Code Pro', monospace;
+        // font-family: 'Source Code Pro', monospace;
+        font-family: 'Poynter', monospace;
+        // font-family: 'Courier Prime', monospace;
     }
 
     h1, h2 {
@@ -28,7 +30,7 @@ const GlobalStyle = createGlobalStyle`
     }
 
     a {
-        color: #0000FF;
+        color: black;
         font-size: 18px;
         font-weight: bold;
     }

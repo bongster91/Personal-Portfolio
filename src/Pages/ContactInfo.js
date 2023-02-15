@@ -15,11 +15,6 @@ const ContactContainer = styled.section`
     a {
         padding-left: 15px;
         font-weight: bold;
-        color: #0000FF;   
-    }
-
-    a:hover {
-        color: darkgoldenrod;
     }
 
     @media screen and (max-width: 700px) {
@@ -33,8 +28,8 @@ function ContactInfo() {
     return (
         <ContactContainer id="contact">
             <h2>Contact Me</h2>
-            <a className="github" href="https://github.com/bongster91">GitHub</a>
-            <a className="linkedin" href="https://www.linkedin.com/in/grace-bong-7922b7202/">LinkedIn</a>
+            <a className="github" href="https://github.com/bongster91" target='_blank' rel='noreferrer'>GitHub</a>
+            <a className="linkedin" href="https://www.linkedin.com/in/grace-bong-7922b7202/" target='_blank' rel='noreferrer'>LinkedIn</a>
             <a className="email" href="mailto:gracebong.park@gmail.com">Email</a>
         </ContactContainer>
     );

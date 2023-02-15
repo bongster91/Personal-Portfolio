@@ -20,13 +20,9 @@ const ExpContainer = styled.section`
 
     img {
         width: 150px;
-        height: 75px;
+        height: 80px;
         float: right;
         padding: 5px;
-    }
-
-    span {
-        margin: 0 0 10px 10px;
     }
 
     .exp-section {
@@ -36,7 +32,7 @@ const ExpContainer = styled.section`
     .most-recent {
         grid-row: 1/2;
         grid-column: 1/7;
-        // padding: 5px;
+        padding: 5px;
         border-bottom: 1px solid #DADCE0;
     }
 
@@ -71,11 +67,11 @@ function Experience() {
     return (
         <ExpContainer id="experience">
             <section className="most-recent exp-section">
-                <h2>Experience</h2><br></br>
+                <h2>Experience</h2><br/>
+                <img className="exp-pic"  src={BlackstoneLogo} alt="blackstone logo" />
                 <h4>Blackstone</h4>
 
-                <p>2022 - current</p>
-                <img className="exp-pic"  src={BlackstoneLogo} alt="blackstone logo" />
+                <p>2022 - current</p><br />
                 <span>
                     I am part of Blackstone Technology & Innovations (BXTI), the technology team at the core of each of Blackstone's businesses and new growth initiatives. Our team works to build the next generation of systems that manage risk, create efficiency, and improve transparency within the firm and across our broad community of investors and portfolio companies.
 
@@ -84,32 +80,32 @@ function Experience() {
             </section>
 
             <section className="pursuit exp-section">
+                <img className="exp-pic"  src={PursuitLogo} alt="pursuit logo" />
                 <h4>Pursuit</h4>
 
-                <p>2020 - 2021</p>
-                <img className="exp-pic"  src={PursuitLogo} alt="pursuit logo" />
+                <p>2020 - 2021</p><br />
                 <span>
                     Fellow at Pursuit, an intensive 12-month, Google-funded, project based software engineering fellowship. Curriculum provides hands-on experience with JavaScript, HTML, CSS, Node, Express, React/Redux, PostgresSQL, APIs, GitHub, Data Structures, Algorithms, sprints, Agile, code reveiws and pair programming.
                 </span>
             </section>
 
             <section className="torch exp-section">
+                <img className="exp-pic"  src={SteakPic} alt="steak pic" />
                 <h4>Torch & Crown, Malibu Farm, Momofuku</h4>
 
-                <p>2018 - 2021</p>
-                <img className="exp-pic"  src={SteakPic} alt="steak pic" />
+                <p>2018 - 2021</p><br />
                 <span>
                     Being part of the opening team member for each new location strengthened my adaptability, collaboration, communication, fortitude and patience. No industry has fortified my conviction that teamwork and diligence are a necessity, more than the hospitality industry. Sacrifices? Made. Spirit? Tested. Spicy? Always.
                 </span>
             </section>
 
             <section className="partners exp-section">
+                <img className="exp-pic"  src={CoffeePic} alt="coffee" />
                 <h4>Partners Coffee Roasters, Doughnut Plant</h4>
                 
-                <p>2016 - 2018</p>
-                <img className="exp-pic"  src={CoffeePic} alt="coffee" />
+                <p>2016 - 2018</p><br />
                 <span>
-                    Honestly, I applied to Partners Coffee Roasters and Doughnut Plant because I'm a coffee-addict and I love doughnuts. BUT, this was my introduction into learning, tasting and breathing specialty coffee and I can never go back. Partners(previously called Toby's Estate) smacked me silly with their blueberry-bomb-pour-overs and chocolately-velvety-espresso...and now I'm a spoiled coffee convert.</span>
+                    I applied to Partners Coffee Roasters and Doughnut Plant because I'm a coffee-addict and I love doughnuts. BUT, this was my introduction into learning, tasting and breathing specialty coffee and I can never go back. Partners(previously called Toby's Estate) smacked me silly with their blueberry-bomb-pour-overs and chocolately-velvety-espresso...and now I'm a spoiled coffee convert.</span>
             </section>
         </ExpContainer>
     );
