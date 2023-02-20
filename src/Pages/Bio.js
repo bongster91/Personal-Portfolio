@@ -1,4 +1,5 @@
 import headshot from '../Assets/Pursuit 7.0 - Headshot.jpg';
+import popcat from '../Assets/popcat-meme.jpeg';
 import BioRecipe from '../Components/BioRecipe';
 import BioBackground from '../Components/BioBackground';
 import styled from 'styled-components';
@@ -25,7 +26,7 @@ const BioSection = styled.section`
 function Bio() {
     return (
         <BioSection id="bio">
-            <img className="headshot" src={headshot} alt="headshot"/>
+            <img className="headshot" src={popcat} alt="headshot"/>
             <BioRecipe />
             <BioBackground />
         </BioSection>
