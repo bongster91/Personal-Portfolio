@@ -1,4 +1,3 @@
-import headshot from '../Assets/Pursuit 7.0 - Headshot.jpg';
 import popcat from '../Assets/popcat-meme.jpeg';
 import BioRecipe from '../Components/BioRecipe';
 import BioBackground from '../Components/BioBackground';
