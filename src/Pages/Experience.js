@@ -1,8 +1,4 @@
 import styled from "styled-components";
-import BlackstoneLogo from '../Assets/BlackstoneLogo.png';
-import PursuitLogo from '../Assets/PursuitLogo.png';
-import SteakPic from '../Assets/steak.jpg';
-import CoffeePic from '../Assets/coffee.jpg';
 
 const ExpContainer = styled.section`
     grid-row: 10/11;
@@ -68,7 +64,6 @@ function Experience() {
         <ExpContainer id="experience">
             <section className="most-recent exp-section">
                 <h2>Experience</h2><br/>
-                <img className="exp-pic"  src={BlackstoneLogo} alt="blackstone logo" />
                 <h4>Blackstone</h4>
 
                 <p>2022 - current</p><br />
@@ -80,7 +75,6 @@ function Experience() {
             </section>
 
             <section className="pursuit exp-section">
-                <img className="exp-pic"  src={PursuitLogo} alt="pursuit logo" />
                 <h4>Pursuit</h4>
 
                 <p>2020 - 2021</p><br />
@@ -90,7 +84,6 @@ function Experience() {
             </section>
 
             <section className="torch exp-section">
-                <img className="exp-pic"  src={SteakPic} alt="steak pic" />
                 <h4>Torch & Crown, Malibu Farm, Momofuku</h4>
 
                 <p>2018 - 2021</p><br />
@@ -100,7 +93,6 @@ function Experience() {
             </section>
 
             <section className="partners exp-section">
-                <img className="exp-pic"  src={CoffeePic} alt="coffee" />
                 <h4>Partners Coffee Roasters, Doughnut Plant</h4>
                 
                 <p>2016 - 2018</p><br />

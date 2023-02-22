@@ -15,8 +15,6 @@ function Opinions() {
         <Opinion>
             <h3>Opinions & Musings</h3>
 
-            <img src="http://placekitten.com/100/100" alt="kitten-placeholder" />
-
             <p>You know what they say...when life gives you lemons, make limes.</p>
 
             <p>I would love to frolic in the jungle with jaguars...as long as I have excellect wifi.</p>
