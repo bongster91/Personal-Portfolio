@@ -2,6 +2,7 @@ import textBasedAdventure from '../Assets/Text based Adventure Giphy.gif';
 import capstone from '../Assets/capstone-giphy.gif';
 import jsCoffee from '../Assets/JSCoffee-giphy.gif';
 import instaclone from '../Assets/instaclone homepage.png';
+import adminAnalytics from '../Assets/admin analytics.png';
 import styled from 'styled-components';
 
 const ProjectContainer = styled.section`
@@ -35,8 +36,15 @@ function Projects() {
 
             <span className='project-container'>
                 <p>Currently working on:    
-                    <a href='https://github.com/bongster91/insta-clone' target='_blank' rel='noreferrer'>Insta Clone</a>
+                    <a href='https://github.com/bongster91/admin-dashboard' target='_blank' rel='noreferrer'>Admin Analytics</a>
                 </p>
+                <p>Admin Dashboard practice</p>
+                <img className="project-giphy" src={adminAnalytics} alt="project-giphy" />
+                <br />
+            </span>
+
+            <span className='project-container'>
+                <a href='https://github.com/bongster91/insta-clone' target='_blank' rel='noreferrer'>Insta Clone</a>
                 <p>MERN fullstack social media app</p>
                 <img className="project-giphy" src={instaclone} alt="project-giphy" />
                 <br />
